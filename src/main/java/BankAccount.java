@@ -30,7 +30,19 @@ public class BankAccount {
         /*
          * Implement this function
          */
+        this.ownerName = name;
+        this.accountType = accountCategory;
     }
+
+    public int setAccountNumber() {
+        accountNumber = newAccountNumber;
+        return accountNumber;
+    }
+
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
 
     /*
      * Implement getters and setters as appropriate for private variables.
